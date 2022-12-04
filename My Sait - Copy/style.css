@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+.news1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    
+    color: #C2C2C2;
+    
+}
+.textnews {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    
+    color: #000000;
+    margin-top:200px;
+    
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+    margin:100px;
+}
+body {
+  margin: 0px;
+  width: 100%;
+}
+header {
+  display: flex;
+  padding: 0px;
+  font-size: 22px;
+  align-items: center;
+  justify-content: flex-end;
+  height: 111px;
+  margin: 0px;
+  width: 100%;
+  background-color: #282828;
+}
+nav {
+  margin: 0px;
+  background-color: #282828;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  display: flex;
+
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0px;
+}
+.menu1 {
+  background-color: #282828;
+  height: 91px;
+  width: 320px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.menu2 {
+  background-color: #282828;
+  height: 91px;
+  width: 320px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin-right: 40px;
+  background-color:#282828;
+}
+main {
+  width: 100%;
+  height: 749px;
+  background-size: cover;
+  margin: 0px;
+  padding: 20px;
+  background-image: url(images/An_angel_leading_a_soul_into_hell._Oil_painting_by_a_followe_Wellcome_V0017388.png);
+
+}
+footer {
+  background-color: #C4C4C4;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+font-style: normal;
+font-size: 36px;
+}
+.aF{
+    text-decoration: none;
+    color:#000000;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+button{
+    position: absolute;
+    width: 202px;
+    height: 80px;
+    left: 253px;
+    top: 286px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+.youtube{
+    margin:30px 10px 0px 10px;
+}
+/* Novosti */
+.MainNews{
+  margin-top:200px;
+  margin-left:50px;
+}
+.textnews1{
+  display:flex;
+  justify-content: space-evenly;
+  margin:30px;
+  width:80%;
+  font-size: 20px;
+  font-family:Tinos;
+}
+.photo{
+  margin-right:50px;
+}
+.photo:hover{
+  transform:scale(1.3);
+}
+.line{
+  height: 4px;
+  width: 80%;
+  background-color: #7c7a7a;
+}
+.AboutMe{
+  width:80%;
+  height:500px;
+  margin:auto;
+  font-size:100px;
+  font-family:Lobster;
+  padding-top:20px;
+}
+.AboutMe:hover{
+  animation: tada 2s 1;
+}
+.carousel {
+  position: relative;
+  width: 400px;
+  padding: 10px 40px;
+  border: 1px solid #CCC;
+}
+
+.carousel img {
+  width: 400px;
+  height: 400px;
+  /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 47%;     /* располагаем стрелки примерно посередине карусели */
+  padding: 2px;
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+
+.arrow:hover {
+  background-color: #0741ad;
+}
+
+.prev {
+  left: 7px;
+}
+
+.next {
+  right: 7px;
+}
+
+.gallery {
+  width: 400px;
+  overflow: hidden;
+}
+
+.gallery ul {
+  height: 400px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 200ms;
+  /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+}
+@media (max-width: 640px){
+  header{
+      padding-bottom:5px;
+     }
+     .carousel {
+      position: relative;
+      width: 200px;
+      height:100px;
+      padding: 10px 40px;
+      border: 1px solid #CCC;
+    }
+    
+    .carousel img {
+      width: 200px;
+      height: 100px;
+      /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+      display: block;
+    }
+    .arrow {
+      position: absolute;
+      top: 47%;     /* располагаем стрелки примерно посередине карусели */
+      padding: 2px;
+      font-size: 18px;
+      color: #000;
+      display: block;
+    }
+    
+    .arrow:hover {
+      background-color: #0741ad;
+    }
+    
+    .prev {
+      left: 7px;
+    }
+    
+    .next {
+      right: 7px;
+    }
+    
+    .gallery {
+      width: 200px;
+      overflow: hidden;
+    }
+    
+    .gallery ul {
+      height: 400px;
+      width: 9999px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      transition: margin-left 200ms;
+      /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+      font-size: 0;
+    }
+    
+    .gallery li {
+      display: inline-block;
+    }
+     .logoImg{
+      width: 130px;
+      height:150px
+     }
+     .mouse{ padding: 100px 20px 60px 20px; }
+     input{
+      margin-top: 5px;
+      padding: 10px 30px 10px 30px;
+     }
+     .group{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     }
+     .menu1{
+       width:150px;
+     }
+     .menu2{
+      width:150px;
+    }
+    .menu3{
+      width:150px;
+    }
+  
+
+}
+@media (max-width: 768px){
+  ul{
+    flex-direction: column;
+  }
+  header{
+    flex-direction: column;
+    height: 450px;
+  }
+  .logo{
+      width: 15%;
+     }
+     .mouse{ padding: 120px 30px 70px 30px; }
+     .menu{
+         font-size:20px;
+     }
+}
+@media (max-width: 1024px){
+  .mouse{ padding: 150px 50px 100px 50px; }
+  .menu{
+      font-size:24px;
+  }
+}
+@media (max-width: 1440px){
+  header{
+  flex-direction:row;
+}
+.menu{
+  font-size:28px;
+}
+.mouse{ padding: 240px 140px 190px 140px; 
+font-size:30px;
+}
+.mouseP{
+  font-size:22px;
+}
+.button{
+  font-size:22px;
+}}
+
